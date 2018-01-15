@@ -13,16 +13,15 @@ import Quick
 import Nimble
 @testable import ___PROJECTNAME___Staging
 
-class ___VARIABLE_sceneName___PresenterTests: QuickSpec {
+class ___VARIABLE_sceneName___VCTests: QuickSpec {
 
     override func spec() {
-        describe("___VARIABLE_sceneName___ Presenter") {
-            var presenter: ___VARIABLE_sceneName___Presenter!
+        describe("___VARIABLE_sceneName___ View Controller") {
+            var vc: ___VARIABLE_sceneName___ViewController!
 
             beforeEach {
-                presenter = ___VARIABLE_sceneName___Presenter()
+                vc = ___VARIABLE_sceneName___ViewController()
             }
         }
     }
-
 }
